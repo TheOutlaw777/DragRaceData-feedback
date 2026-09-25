@@ -1,0 +1,43 @@
+name: Bug or broken page
+description: A page won't load, a control doesn't work, or something looks wrong on screen.
+labels: ["bug"]
+body:
+  - type: dropdown
+    id: page
+    attributes:
+      label: Which page?
+      options:
+        - Classic Dashboard
+        - Comparison Dashboard
+        - Timeslip Manager
+        - Event Calendar
+        - Track Weather
+        - Landing page / navigation
+        - Somewhere else
+    validations:
+      required: true
+  - type: textarea
+    id: what
+    attributes:
+      label: What happened?
+      description: What you did, and what the page did instead.
+      placeholder: Opened the Comparison Dashboard, picked D4 Texas Motorplex, and the round columns never loaded.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect instead?
+    validations:
+      required: true
+  - type: input
+    id: browser
+    attributes:
+      label: Browser and device
+      placeholder: Chrome on Android, Safari on iPhone, Firefox on Windows…
+  - type: checkboxes
+    id: signed-in
+    attributes:
+      label: Were you signed in?
+      options:
+        - label: I was signed in when this happened

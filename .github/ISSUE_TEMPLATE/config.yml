@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Account, data deletion, or privacy
+    url: mailto:contact@dragracedata.net
+    about: Anything about your account or your own data — email instead, so it isn't public.
+  - name: DragRaceData.net
+    url: https://dragracedata.net
+    about: The site itself.

@@ -1,0 +1,48 @@
+name: Wrong or missing data
+description: A run is missing, or a number, name, or class is wrong.
+labels: ["data"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Data is read live from the timing tower's feed, so a run that finished in the last few
+        minutes may simply not have come through yet. If an event is running right now, it's worth
+        refreshing once before filing.
+  - type: input
+    id: event
+    attributes:
+      label: Event
+      placeholder: LODRS D4 Texas Motorplex 2
+    validations:
+      required: true
+  - type: input
+    id: day
+    attributes:
+      label: Date of the run
+      placeholder: 2026-05-16
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Category or class
+      placeholder: Stock Eliminator, B/SA
+  - type: input
+    id: driver
+    attributes:
+      label: Driver or car number
+      placeholder: "#4137"
+  - type: textarea
+    id: wrong
+    attributes:
+      label: What does the site show?
+      description: The value on screen, or "nothing — the run is missing entirely".
+    validations:
+      required: true
+  - type: textarea
+    id: right
+    attributes:
+      label: What should it show?
+      description: If you have the printed timeslip, the numbers from it are the most useful thing you can give us.
+    validations:
+      required: true

@@ -1,0 +1,29 @@
+name: Feature request
+description: Something you wish a dashboard did, or a tool you think is missing.
+labels: ["enhancement"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: What are you trying to do?
+      description: The thing you're actually trying to accomplish at the track, not the feature you have in mind for it.
+      placeholder: I want to see how my 60ft times moved across a whole weekend without opening each round separately.
+    validations:
+      required: true
+  - type: textarea
+    id: idea
+    attributes:
+      label: What would solve it?
+      description: If you have a specific idea, describe it. If not, leave this blank — the problem above is the useful part.
+  - type: dropdown
+    id: where
+    attributes:
+      label: Where would this live?
+      options:
+        - Classic Dashboard
+        - Comparison Dashboard
+        - Timeslip Manager
+        - Event Calendar
+        - Track Weather
+        - A new tool
+        - Not sure
