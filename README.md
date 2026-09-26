@@ -13,14 +13,18 @@ public to report a problem, correct bad data, or ask for a feature.
 | **[Bug or broken page](../../issues/new?template=bug_report.yml)** | A page won't load, a control doesn't work, something looks wrong on screen. |
 | **[Wrong or missing data](../../issues/new?template=data_correction.yml)** | A run is missing, an ET or dial-in is wrong, a track or driver name is off. |
 | **[Feature request](../../issues/new?template=feature_request.yml)** | Something you wish a dashboard did, or a tool you think is missing. |
-| **[Account or data request](../../issues/new?template=account_request.yml)** | Delete your account, or ask what's stored against it. |
+| **[Account or data request](../../issues/new?template=account_request.yml)** | Can't sign in to delete your account yourself, or need something else about it. |
 
 Before filing, it's worth [checking the open issues](../../issues) — someone may have got there first.
 
 ## Account and data requests
 
-Account deletion and "what do you store about me" requests use their own template:
-**[Account or data request](../../issues/new?template=account_request.yml)**.
+**To delete your account, you don't need this repo at all.** Sign in at dragracedata.net and use
+the **Delete my account** button on the [Privacy page](https://dragracedata.net/privacy#delete) --
+it removes everything immediately, with nothing posted in public.
+
+If you can't sign in any more, or need something else about your account, use the
+**[Account or data request](../../issues/new?template=account_request.yml)** template.
 
 Every issue here is public, so that template asks for your **username** and nothing else.
 Do not post your email address, your password, or anything else private — in that template

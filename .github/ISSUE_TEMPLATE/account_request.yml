@@ -1,10 +1,17 @@
 name: Account or data request
-description: Delete your account, or ask what's stored against it.
+description: Can't sign in to delete your account yourself, or need something else about it.
 labels: ["account"]
 body:
   - type: markdown
     attributes:
       value: |
+        ### Want to delete your account? You can do it yourself.
+
+        Sign in at dragracedata.net and use the **Delete my account** button on the
+        [Privacy page](https://dragracedata.net/privacy#delete). It removes everything
+        immediately, with nothing posted in public. Use this form only if you can't sign
+        in any more, or need something else.
+
         ### This is a public thread
 
         Anyone can read what you write here, and GitHub keeps issue history even after
