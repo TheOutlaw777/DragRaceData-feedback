@@ -13,17 +13,19 @@ public to report a problem, correct bad data, or ask for a feature.
 | **[Bug or broken page](../../issues/new?template=bug_report.yml)** | A page won't load, a control doesn't work, something looks wrong on screen. |
 | **[Wrong or missing data](../../issues/new?template=data_correction.yml)** | A run is missing, an ET or dial-in is wrong, a track or driver name is off. |
 | **[Feature request](../../issues/new?template=feature_request.yml)** | Something you wish a dashboard did, or a tool you think is missing. |
+| **[Account or data request](../../issues/new?template=account_request.yml)** | Delete your account, or ask what's stored against it. |
 
 Before filing, it's worth [checking the open issues](../../issues) — someone may have got there first.
 
-## What *not* to file here
+## Account and data requests
 
-**Anything involving your account or your personal data.** Account deletion requests, questions
-about what's stored, or anything else covering your own information should go to
-**contact@dragracedata.net** instead, so it isn't sitting in a public thread.
+Account deletion and "what do you store about me" requests use their own template:
+**[Account or data request](../../issues/new?template=account_request.yml)**.
 
-See the site's [Privacy Policy & Terms](https://dragracedata.net/privacy) for what an account stores
-and how to request deletion.
+Every issue here is public, so that template asks for your **username** and nothing else.
+Do not post your email address, your password, or anything else private — in that template
+or any other. See the site's [Privacy Policy & Terms](https://dragracedata.net/privacy) for
+what an account actually stores.
 
 ## A note on the data
 

@@ -1,0 +1,41 @@
+name: Account or data request
+description: Delete your account, or ask what's stored against it.
+labels: ["account"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        ### This is a public thread
+
+        Anyone can read what you write here, and GitHub keeps issue history even after
+        editing. **Do not post your email address, your password, or anything else you
+        would not want public.** Your username is enough to find the account.
+  - type: dropdown
+    id: request
+    attributes:
+      label: What do you need?
+      options:
+        - Delete my account and everything stored under it
+        - Tell me what is stored about me
+        - Something else about my account
+    validations:
+      required: true
+  - type: input
+    id: username
+    attributes:
+      label: Your DragRaceData.net username
+      description: The username you sign in with — not your email address.
+    validations:
+      required: true
+  - type: textarea
+    id: detail
+    attributes:
+      label: Anything else we should know?
+      description: Optional. Again, nothing private.
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Before you submit
+      options:
+        - label: I understand this issue is public and I have not included private information.
+          required: true
